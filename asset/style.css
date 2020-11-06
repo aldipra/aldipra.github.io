@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*:focus{
+    outline: none !important;
+}
+
+body{
+    font-family: poppins;
+    background-color: #f6f5f5;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    width: 50%;
+    height: 70px;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont-logo{
+    display: flex;
+    width: 10%;
+}
+
+.cont-logo span{
+    font-family: segoe ui;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f3c88;
+}
+
+.cont-links{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+}
+
+.cont-links a{
+    text-decoration: none;
+    color: #393e46;
+    font-weight: 500;
+}
+
+.cont-links a:hover{
+    font-weight: 600;
+    color: #1f3c88;
+    border-bottom: 3px solid #ee6f57;
+}
+
+section{
+    width: 90%;
+    margin-top: 100px;
+}
+
+.cont-tittle{
+    display: flex;
+    width: 50%;
+    height: 30px;
+    overflow: hidden;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.cont-tittle hr{
+    width: 3px;
+    height: 30px;
+    border: none;
+    background-color: #ee6f57;
+    margin-right: 4px;
+}
+
+.cont-tittle span{
+    font-size: 24px;
+    font-weight: 600;
+    color: #1f3c88;
+}
+
+.cont-name{
+    width: 50%;
+}
+.cont-name span{
+    font-size: 64px;
+    font-weight: 600;
+    color: #212225;
+}
+
+.cont-content-about{
+    width: 50%;
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgba(57, 62, 70, 0.7);
+}
+
+.cont-media{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#facebook, #instagram, #twitter, #dribbble{
+    display: flex;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#facebook{
+    background-color: #E9EDF6;
+}
+
+#instagram{
+    background-color: #FBE4E9;
+}
+
+#twitter{
+    background-color: #E3F1FC;
+}
+
+#dribbble{
+    background-color: #FCE4ED;
+}
+
+.cont-hero-image{
+    position: absolute;
+    top: 0;
+    right: 65px;
+    z-index: 99;
+}
